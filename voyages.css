@@ -26,8 +26,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 
   width: 100%;
   height: 100vh;
@@ -63,7 +63,7 @@ body {
 
 .dropbtn,
 .dropbtn_name {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   color: black;
   padding: 16px;
   font-size: 16px;
