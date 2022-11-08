@@ -5,7 +5,6 @@
 :root {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   --font: "Poppins", sans-serif;
   --text-color: #574f57;
   --text-hover: #979376;
@@ -13,5 +12,3 @@
   /* Créer une classe avec la couleur et la taille d'espacement des lettres si besoin*/
   --desc-color: #a2a2a2;
 }
-
-
