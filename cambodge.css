@@ -15,45 +15,76 @@
 }
 
 .main_cambodge {
-  background-color: var(--primary-color);
+  background-color: #cfe2e9;
 }
 
-.article_container {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.article_container1 img{
+  width: 50%;
+  border-top: 4rem solid #32a1ce;
+
+}
+
+.article_container2 img{
+  width: 100%;
+  border-right: 1.5rem solid #32a1ce;
+}
+
+.article_container3 img {
+  width: 30%;
+    border-right: 3rem solid #32a1ce;
+
 }
 
 .text_container {
-  padding: 10px;
-  background-color: white;
-  color: var(--text-color);
   font-family: var(--font);
-}
-
-.article_container_reverse {
+  width: 50%;
+  background-color: white;
+  text-align: justify;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: thick double #32a1ce;
+}
+
+.text_container p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.article_container1 {
+  display: flex;
+  padding: 20px;
+
+}
+
+.article_container2 {
+  display: flex;
+  padding: 20px;
+}
+
+.article_container3 {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
   flex-direction: row-reverse;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-.article_container_reverse .text_container {
-  margin-right: 30px;
-  padding: 10px;
-}
+.article_container3::before{
+  content: " ";
+  top:0;
+  left: 0;
+  width: 20px;
+  height: 60px;
+  background: #32a1ce;
+  position: relative ;
+ }
 
-.text_container {
-  width: 35%;
-  border: 4px solid #90bca6;
-  margin-right: 30px;
-  text-align: justify;
-}
 
-.article_container img,
-.article_container_reverse img {
-  margin-right: 30px;
-}
+
+
+
+
+.article_container:hover, .article_container_reverse:hover{
+  color: #757272;
+
