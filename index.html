@@ -1,72 +1,132 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- *****************:link-css**************** -->
-    <link rel="stylesheet" href="voyages.css">
+    <link rel="stylesheet" href="voyages.css" />
     <!-- *****************:titre-page******************* -->
-    <title>Initiation aux voyages</title>
-</head>
+    <title>Itinérances</title>
+  </head>
 
-<body>
+  <body>
+
     <header>
-        <!-- img liens vers accueil ajouter -->
-                <a href="index.html"><img src="./img/unnamed.png" alt="" width="50px" height="auto"></a>
-                
-        <!-- premier menu déroulant ( découvir) -->
-                <nav class="dropdown">
-                    <button class="dropbtn">Découvrir</button>
-                    <div class="dropdown-content">
-                      <a href="#">Afrique</a>
-                      <a href="#">Amérique</a>
-                      <a href="#">Asie</a>
-                      <a href="#">Europe</a>
-                    </div>
-                </nav>
-        <!-- second menu déroulant (Carnet de voyage) -->
-                <nav class="dropdown_name">
-                    <button class="dropbtn_name">Carnet de voyages</button>
-                    <div class="dropdown-content_name">
-                      <a href="#">Amine</a>
-                      <a href="#">Anaïs</a>
-                      <a href="#">Medhi</a>
-                      <a href="#">Sylvain</a>
-                    </div>
-                </nav>
-                
-                <div class="alone_links">
-                    <a href="#">About us</a>  
-                    <a href="#">Contact</a>
-                </div>
-        
-            </header>
-                 <!-- ***********hero-container*********** -->
+
+      <!-- img liens vers accueil ajouter -->
+
+
+      <a href="index.html"><img src="./img/unnamed.png" alt="" width="50px" height="auto"/></a>
+
+      <!-- premier menu déroulant ( découvir) -->
+
+
+      <nav class="dropdown">
+
+            <button class="dropbtn">Découvrir</button>
+            
+            <div class="dropdown-content">
+            <a href="#">Afrique</a>
+            <a href="#">Amérique</a>
+            <a href="#">Asie</a>
+            <a href="#">Europe</a>
+
+            </div>
+      </nav>
+
+      <!-- second menu déroulant (Carnet de voyage) -->
+      <nav class="dropdown_name">
+        <button class="dropbtn_name">Carnets de voyages</button>
+        <div class="dropdown-content_name">
+          <a href="#">Amine</a>
+          <a href="#">Anaïs</a>
+          <a href="#">Medhi</a>
+          <a href="#">Sylvain</a>
+        </div>
+      </nav>
+
+      <div class="alone_links">
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+      </div>
+    </header>
+    <!-- ***********hero-container*********** -->
 
     <section class="hero-container">
-
-        <div class="social-container">
-
-            
-
-                 <a href=""><img src="img/facebook.png" alt="facebook"> </a>
-                 <a href=""><img src="img/twitter.png" alt="instagram"> </a>
-                 <a href=""><img src="img/linkedin.png" alt="linkedin"> </a>
-
-
-
-            
-            
-
-        </div>
-             
+      <div class="social-container">
+        <a href=""><img src="img/facebook.png" alt="facebook" /> </a>
+        <a href=""><img src="img/twitter.png" alt="instagram" /> </a>
+        <a href=""><img src="img/github.png" alt="github" /> </a>
+      </div>
     </section>
 
+   
+<div class="aboutus_banner">
+    <h1>About us</h1>
+</div>
 
-</body>
+<div class="cards_container">
 
+    <div class="flip_card">
+        <div class="flip_card_inner">
+            <div class="flip_card_front">
+                <img src="/img/mehdi.png" alt="Avatar de Mehdi Romdhani" style="width: 250px;height: 250px;">
+            </div>
+            <div class="flip_card_back">
+                <h3>Mehdi</h3>
+                <p>Je suis le formidable Mehdi !</p>
+                <a href="allemagne.html">Mon carnet de voyage</a>
+            </div>
+        </div>
+    </div>
+
+        <div class="flip_card">
+        <div class="flip_card_inner">
+            <div class="flip_card_front">
+                <img src="/img/anais.png" alt="Avatar de Anaïs Labit" style="width: 250px;height: 250px;">
+            </div>
+            <div class="flip_card_back">
+                <h3>Anaïs</h3>
+                <p>Je suis la formidable Anaïs !</p>
+                <a href="cambodge.html">Mon carnet de voyage</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip_card">
+        <div class="flip_card_inner">
+            <div class="flip_card_front">
+                <img src="/img/amine.png" alt="Avatar de Mohamed-El-Amine Necib" style="width: 250px;height: 250px;">
+            </div>
+            <div class="flip_card_back">
+                <h3>Mohamed el-Amine</h3>
+                <p>Je suis le formidable Mohamed el-Amine Necib !</p>
+                <a href="algerie.html">Mon carnet de voyage</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip_card">
+        <div class="flip_card_inner">
+            <div class="flip_card_front">
+                <img src="/img/sylvain.png" alt="Avatar de Sylvain Mihut" style="width: 250px;height: 250px;">
+            </div>
+            <div class="flip_card_back">
+                <h3>Sylvain</h3>
+                <p>Je suis le formidable Sylvain Mihut !</p>
+                <a href="mexique.html">Mon carnet de voyage</a>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+        
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
-
