@@ -78,7 +78,7 @@ header {
 
 header::before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0;
@@ -203,10 +203,11 @@ nav .fa-bars:hover {
 .menu-open {
   height: 100vh;
   opacity: 1;
+  background: #574f57;
 }
 
 .navbar-active {
-  background: var(--primary-color);
+  background: #574f57;
 }
 
 /* <===== HEADER-BODY =====> */
@@ -272,7 +273,7 @@ nav .fa-bars:hover {
   margin-left: 0.5em;
 }
 
-.slide-counter {
+.slider-counter {
   font-weight: 300;
 }
 
@@ -497,11 +498,13 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
-  nav .container ul{
+  nav .container ul {
     display: none;
   }
-  .heading{font-style: 1.5em;}
-  .decouvrir .container-inner{
+  .heading {
+    font-style: 1.5em;
+  }
+  .decouvrir .container-inner {
     flex-direction: column;
     align-items: center;
   }
@@ -516,13 +519,15 @@ hr {
   }
 }
 
-@media screen and (max-height:600px) {
+@media screen and (max-height: 600px) {
   .menu > div {
     padding-top: 5em;
     justify-content: flex-start;
   }
 }
 
-@media screen and (max-width:400px){
-  html{font-size: 13px;}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 13px;
+  }
 }
