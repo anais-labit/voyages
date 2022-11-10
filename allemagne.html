@@ -1,20 +1,118 @@
 <!DOCTYPE html>
-<html lang="Fr">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- ****************Links-css1***************** -->
     <link rel="stylesheet" href="allemagne.css" />
-
-    <!-- ****************Title-Page****************** -->
-
-    <title>Intinérance-Allemagne</title>
+    <script
+      src="https://kit.fontawesome.com/59db8a6c8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Itinérances-Allemagne</title>
   </head>
-
   <body>
-    <section class="main-berlin-container">
+    <!-- Début du Header -->
+    <header>
+      <nav id="navbar">
+        <div class="menu">
+          <div>
+            <ul>
+              <li><a href="#">link1</a></li>
+              <li><a href="#">link2</a></li>
+              <li><a href="#">link3</a></li>
+            </ul>
+            <div class="nav-mobile">
+              <ul>
+                <li><a href="#">Découvrir</a></li>
+                <li><a href="#">Carnet de Voyages</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <a href="#" class="logo"
+            ><img src="img/rose-des-vents.png" alt="logo rose des vents"
+          /></a>
+          <div class="container-inner">
+            <ul class="ul-left">
+              <li><a href="#">Découvrir</a></li>
+              <li><a href="#">Carnets de Voyages</a></li>
+            </ul>
+            <ul class="ul-right">
+              <li><a href="index.html#aboutus">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" id="menu-button"></i>
+        </div>
+      </nav>
+      <div class="header-body">
+        <div class="container">
+          <div class="column col-1">
+            <span class="year">2022</span>
+            <div class="social">
+              <!-- <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a> -->
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="container-inner">
+            <div class="column col-2">
+              <div>
+                <small>Allemagne</small>
+                <div class="big-title">
+                  <h1 class="title anim-animate">Berlin.</h1>
+                  <h1 class="slider-counter">01/<sup>03</sup></h1>
+                </div>
+                <a href="#" class="link-discover">Découvrir la Ville</a>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <a href="#sec" class="scroll-button">
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </div>
+          </div>
+          <div class="column col-3">
+            <span class="pagination pagination-active"></span>
+            <span class="pagination"></span>
+            <span class="pagination"></span>
+          </div>
+        </div>
+      </div>
+      <div class="slide-card">
+        <div class="slide-card-active">
+          <span>01.</span>
+          <h4>Porte de Brandebourg</h4>
+        </div>
+        <div>
+          <span>02.</span>
+          <h4>La Rivière Spree</h4>
+        </div>
+        <div>
+          <span>03.</span>
+          <h4>U-bahn</h4>
+        </div>
+      </div>
+    </header>
+
+    <!-- Fin du Header -->
+
+    <!-- Debut de la Section Découvrir -->
+
+    <!-- ! C'est ici que vous implantez votre section =========> -->
+
+    <section class="main-berlin-container" id="sec">
       <div class="main-txt-container">
         <h1>ALLEMAGNE</h1>
         <p>Berlin.</p>
@@ -127,11 +225,6 @@
       </div>
 
       <div class="nei2-card-container">
-        <!-- <div class="nei2-txt-container">
-                   <p>"Berlin ist arm, aber sexy." </p> 
-                   <small> <i>Berlin est pauvre mais sexy  - Klaus Wowereit, maire de Berlin (2001-2014)</i> </small>
-                </div> -->
-
         <div class="east-container">
           <div class="east-title">
             <h2>East Side Gallery</h2>
@@ -167,7 +260,10 @@
               src="img/allemagne/karlmarkstrasse-transformed.jpeg"
               alt="karlmarkalle"
             />
-            <img src="img/allemagne/karlmarx2-transformed.jpeg" alt="Karl-Marx-Allee" />
+            <img
+              src="img/allemagne/karlmarx2-transformed.jpeg"
+              alt="Karl-Marx-Allee"
+            />
           </div>
         </div>
 
@@ -190,57 +286,88 @@
           </div>
         </div>
       </div>
-         
+
       <div class="east-line-container">
         <hr />
       </div>
 
-
       <div class="nei2-txt-container">
-        <p> "Berlin ist arm, aber sexy." </p> 
-        <small> <i>Berlin est pauvre mais sexy  - Klaus Wowereit, maire de Berlin (2001-2014)</i> </small>
-    </div> 
-
-    <div class="line-container">
-        <hr />
+        <p>"Berlin ist arm, aber sexy."</p>
+        <small>
+          <i
+            >Berlin est pauvre mais sexy - Klaus Wowereit, maire de Berlin
+            (2001-2014)</i
+          >
+        </small>
       </div>
 
+      <div class="line-container">
+        <hr />
+      </div>
     </section>
 
     <section class="german-food-container">
+      <div class="line-container">
+        <hr />
+        <p>Kebap Berliner.</p>
+      </div>
 
-        <div class="line-container">
-            <hr />
-            <p>Kebap Berliner.</p>
-             
-          </div>
+      <div class="food-container">
+        <p>
+          À quelques mètres de Curry 36 loin se trouve un stand de kebab discret
+          – si la queue n'était pas si longue. <br />
+          Car les kebabs de volaille, les dürüms et les kebabs de légumes selon
+          la recette maison avec de la viande tendre, des légumes grillés et des
+          sauces délicieuses ne sont depuis longtemps plus une découverte.
+          <br />
+          Le goût ravît aussi le monde des dames – et submerge Mustafa d'offres
+          de mariage.
+        </p>
+      </div>
 
-          <div class="food-container">
+      <div class="adresse-container">
+        <div class="ad-container">
+          <img src="img/allemagne/503080.png" alt="epingle" />
+          <a
+            href="https://www.google.com/search?q=mustafas-gemuse-kebab&oq=mustafas-gemuse-kebab&aqs=chrome..69i57j69i60.194j0j4&sourceid=chrome&ie=UTF-8"
+            target="_blank"
+            >Mustafa's Gemüse Kebap</a
+          >
+        </div>
 
-            <p> À quelques mètres de Curry 36 loin se trouve un stand de kebab discret – si la queue n'était pas si longue. <br>
-                Car les kebabs de volaille, les dürüms et les kebabs de légumes selon la recette maison avec de la viande tendre, des légumes grillés et des sauces délicieuses ne sont depuis longtemps plus une découverte.  <br>
-                 Le goût ravît aussi le monde des dames – et submerge Mustafa d'offres de mariage.
-
-            </p>
-          </div>
-
-
-            <div class="adresse-container">
-                    <div class="ad-container">
-                        <img src="img/allemagne/503080.png" alt="epingle">
-                        <a href="https://www.google.com/search?q=mustafas-gemuse-kebab&oq=mustafas-gemuse-kebab&aqs=chrome..69i57j69i60.194j0j4&sourceid=chrome&ie=UTF-8" target="_blank">Mustafa's Gemüse Kebap</a>
-                    </div>
-
-                    <div class="pic-food-container">
-                        <img src="" alt="">
-                    </div>
-            </div>
-
-          
-               
-              
-           
-            
+        <div class="pic-food-container">
+          <img src="" alt="" />
+        </div>
+      </div>
     </section>
+
+    <hr />
+
+    <!-- Début du Footer -->
+
+    <footer>
+      <div>
+        <p>
+          &copy; ITINERANCES
+          <span class="year">2022</span>
+          , by M.A.A.S
+        </p>
+      </div>
+      <div>
+        <span>La Plateforme_io</span>
+        <span>Rue d'Hozier, Marseille, 13002</span>
+        <span>Mehdi-Romdhani@laplateforme.io</span>
+      </div>
+      <div>
+        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+        <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+        <a href="https://github.com/mehdi-romdhani" target="_blank"
+          ><i class="fab fa-github-alt"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- Fin du Footer -->
+    <!-- Déclaration lien vers algerie.js -->
+    <script src="allemagne.js"></script>
   </body>
 </html>
