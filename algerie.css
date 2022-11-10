@@ -323,6 +323,8 @@ nav .fa-bars:hover {
 
 /* <====== DISCOVER ======> */
 
+/* !Vous devez modifier ici ============> */
+
 .decouvrir .container-inner {
   display: flex;
   justify-content: space-between;
@@ -498,6 +500,7 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
+  /* !Ca se passe ICI pour le responsive de votre page ===============> */
   nav .container ul {
     display: none;
   }
