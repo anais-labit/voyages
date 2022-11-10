@@ -30,17 +30,15 @@ let id = 0;
 
 // TABLEAUX D'IMAGES
 
-// ! Mettre vos lien de photos ici ========>
-
 const images = [
-  "/img/Alger/Alger.jpg",
-  "/img/Alger/grande-poste.jpg",
-  "/img/Alger/Musee-d-art-moderne.jpg",
+  "/img/kampot/kampot.png",
+  "/img/kampot/khmer-new-year.png",
+  "/img/kampot/pepper.png",
 ];
 
 function slider(i) {
   // Paramètrer Hero Image Dynamique
-  header.style.background = `url(${images[i]}) no-repeat center`;
+  header.style.background = `url(${images[i]}) no-repeat 0`;
   // On/Off sur class slide-card-active
   // Reset de la totalité des class active
   for (let i = 0; i < pagination.length; i++) {
