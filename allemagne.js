@@ -110,4 +110,3 @@ function stopAutoSlide() {
   autoSlide = setInterval(nextSlide, 10000);
 }
 
-}
