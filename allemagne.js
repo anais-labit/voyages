@@ -33,9 +33,10 @@ let id = 0;
 // ! Mettre vos lien de photos ici ========>
 
 const images = [
-  "/img/Alger/Alger.jpg",
-  "/img/Alger/grande-poste.jpg",
-  "/img/Alger/Musee-d-art-moderne.jpg",
+
+  "img/allemagne/berlin1.jpg",
+  "img/allemagne/berlin2.jpg",
+  "img/allemagne/berlin3.jpg",
 ];
 
 function slider(i) {
