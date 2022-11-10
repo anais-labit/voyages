@@ -432,6 +432,7 @@ footer span {
 footer > div:nth-child(3) a {
   font-size: 1.2em;
   margin: 0 0.5em;
+  color: var(--text-hover);
 }
 
 hr {
