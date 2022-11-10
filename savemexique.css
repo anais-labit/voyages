@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+p, h2, h3, a {
+    font-family: "Poppins", sans-serif;
+}
+
+.banner_arcticle_history {
+    background-color: #D7EBBA;
+}
+
+
+.history_of_the_city {
+    padding: 5px 0;
+}
+
+.history_of_the_city h2 {
+    margin: 2%;
+    font-size: 6rem
+}
+
+.history_of_the_city p {
+    font-size: 1.2rem;
+    margin: 2%;
+    padding: 0.5%;
+    /* margin-bottom: 3%; */
+}
+
+.button_link {
+    margin: 2% 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+    
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding: 1%;
+    
+}
+
+/* .guadalajara_visit {
+    display: flex;
+
+} */
+
+.guadalajara_visit_text, .guadalajara_event_text, .guadalajara_food_text{
+    margin: 2%;
+    color: white;    
+}
+
+.visit_text_and_img, .event_text_and_img, .food_text_and_img {
+    background-color: rgba(0, 0, 0, 0.674);
+}
+
+.guadalajara_visit_img {
+    float: left;
+    margin: 2%;
+    height: 350px;
+    width: 550px;
+}
+
+.banner_visit {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-image: url(./img/guadalajara_img/hospice001.avif);
+    background-size: cover;
+    background-position: bottom 65% center;
+    object-fit: fixed; 
+}
+
+.banner_event {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-image: url(./img/guadalajara_img/umbrella.avif);
+    background-size: cover;
+    background-position: bottom 65% center;
+    object-fit: fixed; 
+
+}
+
+.guadalajara_event_img {
+    float: left;
+    margin: 2%;
+    width: 550px;
+    height: 350px;
+}
+
+.banner_food {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-image: url(./img/guadalajara_img/restaurant.jpg);
+    background-size: cover;
+    background-position: bottom 65% center;
+    object-fit: fixed; 
+
+}
+
+.empty {
+    height: 60px;
+    background-color: #D7EBBA;
+}
