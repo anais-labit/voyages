@@ -5,7 +5,6 @@
 /* <===== Déclarations des variables dans le ROOT ======> */
 
 :root {
-
   margin: 0;
   padding: 0;
   --font: "Poppins", sans-serif;
@@ -17,6 +16,8 @@
 
   --desc-color: #a2a2a2;
 }
+
+/* <======= PAGE ACCUEIL ======> */
 
 body {
   margin: 0;
@@ -191,14 +192,13 @@ header img {
   font-family: var(--font);
 }
 
-.cards_container a{
+.cards_container a {
   text-decoration: none;
   color: var(--text-hover);
 }
 
-
-.flip_card_front img{
-    border-radius: 50px;
+.flip_card_front img {
+  border-radius: 50px;
 }
 
 .aboutus_banner {
@@ -209,5 +209,64 @@ header img {
   height: 100px;
   color: #f1f1f1;
   font-family: var(--font);
+}
 
+/* <======= PAGE CONTACT ======> */
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100vw;
+  height: 100%;
+  background-image: url(img/world_map.jpg)
+}
+
+.form {
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 60%;
+  opacity: 0.9;
+}
+.form_container .form .subject {
+  background-color: red;
+}
+
+input[type="text"],
+select,
+textarea {
+  background-color: white;
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--text-color);
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  border: var(--text-color);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: var(--text-color);
+  box-shadow: 0 0 10px var(--primary-color);
+  color: white;
+  font-size: 15px;
+  padding: 12px 30px;
+  border-radius: 5px;
+  outline: none;
+  border: #e1dcc6;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--text-hover);
 }
