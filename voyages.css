@@ -41,31 +41,6 @@ body {
 
 /* /////////////Social-container////////////: */
 
-.social-container {
-  border: 1px solid black;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: absolute;
-  width: 3%;
-  top: 70%;
-}
-
-.social-container a {
-  border: 1px solid saddlebrown;
-  padding-bottom: 75%;
-  /* padding-top: 50%; */
-  /* padding-left: 50%; */
-  margin-left: 14%;
-  /* top:40%; */
-}
-
-.social-container img {
-  width: 32px;
-  height: 32px;
-}
-
 .dropbtn,
 .dropbtn_name {
   background-color: rgba(255, 255, 255, 0);
@@ -108,7 +83,7 @@ body {
 .dropdown_name:hover .dropdown-content_name {
   display: block;
 }
-https://www.amica-travel.com/cambodge/kampot
+
 .dropdown:hover .dropbtn,
 .dropdown_name:hover .dropbtn_name {
   background-color: #6e6e6e;
@@ -179,6 +154,8 @@ header img {
   background-color: white;
   color: var(--text-color);
   transform: rotateY(180deg);
+  text-align: center;
+  padding: 5px;
 }
 
 /* positionner les cartes côte à côte */
@@ -219,7 +196,7 @@ header img {
   padding: 30px;
   width: 100vw;
   height: 100%;
-  background-image: url(img/world_map.jpg)
+  background-image: url(img/world_map.jpg);
 }
 
 .form {
@@ -273,7 +250,6 @@ input[type="submit"]:hover {
 
 /* <===== FOOTER ======> */
 
-
 footer {
   font-family: var(--font);
   padding: 1.7em;
@@ -295,12 +271,10 @@ footer span {
 footer > div:nth-child(3) a {
   font-size: 1.2em;
   margin: 0 0.5em;
-    color: var(--text-hover);
-
+  color: var(--text-hover);
 }
 
 hr {
   width: 90%;
   border: 1px #eee solid;
 }
-
