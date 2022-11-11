@@ -436,11 +436,12 @@ flex le conteur 2 et reverse par rapport à 1 et 3 */
 /* création de contenus déco */
 .article_container1::before {
   content: " ";
-  top: 850px;
+  top: 80px;
+  left: 40px;
   height: 120px;
   border-bottom: 30px solid transparent;
   border-left: 60px solid orange;
-  position: absolute;
+  position: relative;
 }
 .article_container2::before {
   content: " ";
@@ -455,7 +456,7 @@ flex le conteur 2 et reverse par rapport à 1 et 3 */
   content: " ";
   right: 20px;
   top: 80px;
-  width: 60px;
+  width: 90px;
   height: 150px;
   background: orange;
   position: relative;
