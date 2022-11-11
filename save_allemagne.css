@@ -1,0 +1,467 @@
+/* <==== Import du font à partir de google ====> */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* <===== Déclarations des variables dans le ROOT ======> */
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --font: "Poppins", sans-serif;
+  --text-color: #574f57;
+  --text-hover: #979376;
+  --primary-color: #f8ecd3;
+
+  /* Créer une classe avec la couleur et la taille d'espacement des lettres si besoin*/
+
+  --desc-color: #a2a2a2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ****************************:Main-container********************* */
+
+.main-berlin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url("img//allemagne/all3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  width: 100%;
+}
+
+.main-txt-container {
+  font-family: var(--font);
+  font-size: 5rem;
+  letter-spacing: 10px;
+  color: rgba(4, 0, 3, 0.97);
+  padding-left: 2%;
+}
+
+.main-txt-container p {
+  font-family: var(--font);
+  font-size: 5rem;
+  letter-spacing: 10px;
+}
+/* **************quote-container************* */
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 20%;
+
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.quote-container p:nth-child(1) {
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* ! ******************************************venue container****************************************************/
+
+.venue-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(250, 246, 246);
+}
+/* **********Line-top-black*********** */
+
+.line-container {
+  width: 100%;
+}
+
+.line-container hr {
+  border: 0;
+  height: 3px;
+  width: 90%;
+  margin-top: 5%;
+  background: rgb(10, 1, 1);
+  margin-bottom: 5%;
+}
+
+.line-container p {
+  font-family: var(--font);
+  font-size: 5rem;
+  letter-spacing: 10px;
+  padding-left: 2%;
+}
+
+/* ****************child-container-txt************* */
+
+.big-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.txt-container {
+  width: 30%;
+  height: 100%;
+
+  margin-left: 2%;
+}
+
+.txt-container p::before {
+  content: " . ";
+  color: orange;
+  width: 32px;
+  height: 32px;
+}
+
+.txt-container p {
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+/* ******Orange-line******* */
+
+.vl {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+  margin-left: 20%;
+}
+
+.vl hr {
+  border: 0;
+  height: 25%;
+  width: 3px;
+
+  background: rgb(216, 112, 14);
+  margin-bottom: 5%;
+}
+/* *********Img-container******** */
+.img-container {
+  width: 60%;
+  height: 100%;
+
+  margin-left: 5%;
+}
+
+.img-container img {
+  width: 40%;
+  height: 85%;
+  padding: 5% 0 0 30%;
+}
+
+/* *******Links****** */
+
+.link-city-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: 15%;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.link-container a:hover {
+  color: orange;
+}
+
+/* ! *******************:container-friedrischain ************************/
+
+.nei-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  background-image: url("img/allemagne/fried.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* *****head-line****** */
+
+.line-nei-container {
+  width: 100%;
+}
+
+.line-nei-container hr {
+  border: 0;
+  height: 3px;
+  width: 90%;
+  margin-top: 5%;
+  background: rgb(10, 1, 1);
+  margin-bottom: 5%;
+}
+
+.line-nei-container p {
+  font-family: var(--font);
+  font-size: 5rem;
+
+  padding-left: 2%;
+}
+
+/* ******friedrischaine-txt-pres******** */
+
+.nei-txt-container {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.nei-txt-container p::before {
+  content: ". ";
+  color: orange;
+}
+.nei-txt-container p {
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+/* **********Container-card-history********** */
+
+.nei-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 50%;
+}
+
+/* *******div-left******** */
+
+.card-left-container {
+  margin-top: 2.5%;
+  width: 25%;
+
+  text-align: center;
+}
+
+.card-left-container p {
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 10px;
+  cursor: wait;
+  font-weight: bold;
+}
+
+.card-left-container p:hover {
+  color: orange;
+}
+
+.card-left-container hr {
+  width: 25%;
+  background: rgb(216, 112, 14);
+  height: 1px;
+}
+/* ********div-right********** */
+
+.card-right-container {
+  display: none;
+  width: 50%;
+}
+
+.card-right-container p {
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.card-left-container:hover + .card-right-container {
+  display: block;
+  animation: appear 2s ease-out;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* *******************East-side-gallery************ */
+
+.nei2-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+ 
+}
+
+.east-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.east-title h2 {
+  font-family: var(--font);
+  font-size: 5rem;
+  padding-left: 2%;
+}
+
+.east-title p {
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-left: 2%;
+}
+
+.east-img-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-top: 2%;
+}
+
+.east-img-container img {
+  width: 25%;
+}
+
+.-east-line-container {
+  width: 100%;
+}
+
+.east-line-container hr {
+  border: 0;
+  height: 3px;
+  width: 55%;
+  margin-top: 5%;
+  background: rgb(10, 1, 1);
+  margin-bottom: 2%;
+}
+
+/* **************karl-max-container & HOUS*************** */
+
+.karl-container {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 100vh;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.karl-title h2 {
+  font-family: var(--font);
+  font-size: 5rem;
+  padding-left: 2%;
+}
+
+.karl-title p {
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-left: 2%;
+}
+
+.karl-img-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  background-color: black;
+  margin-top: 2%;
+}
+
+.karl-img-container img {
+  width: 100%;
+}
+
+/* ************quote-bottom-container********** */
+
+.nei2-txt-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+
+
+
+.nei2-txt-container p:nth-child(1) {
+
+        font-family: var(--font);
+        font-size: 1rem;
+        font-weight: 700;
+        color: orange;
+}
+
+
+/* **********************container-kebab------------ */
+
+.german-food-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.food-container p{
+    
+    font-family: var(--font);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-left: 2%;
+}
+
+
+.ad-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.ad-container p{
+    padding-left: 2%;
+}
+.ad-container img{
+    width: 32px;
+    height: 32px;
+}
+
+.ad-container a{
+    font-family: var(--font);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-left: 2%;
+    text-decoration: none;
+    color: black;
+    padding: 0.25%;
+
+}
+
+
